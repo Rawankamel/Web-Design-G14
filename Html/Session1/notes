@@ -1,0 +1,20 @@
+-- w3schools ==> https://www.w3schools.com/html/default.asp
+
+-- comment ==>   <!-- comment -->
+
+-- Blocks Elements ==> h1:h6 , p , table , ul , ol
+-- Inline Elements == > span , img , button , a
+
+
+-- image tag ==> atrributes ==> src = image path
+                                height ==> px
+                                width ==> px , %
+                                alt
+                                title
+
+-- a Tag==> attributes  ==> href = url / path of page    
+                            target = _self (default) , _blank , parent
+
+-- ul attribute ==> type = disc (default) , square , circle
+-- ol attribute ==> type = 1(default) , A , a , I , i
+                                                            
