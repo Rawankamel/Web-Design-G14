@@ -1,0 +1,35 @@
+-- https://www.javatpoint.com/
+
+-- block Elements ==> div , semantic tags , form
+-- inline Elements ==> text formatting , iframe , , video , audio ,  label , input 
+
+-- username@domain.subdomain
+
+
+-- form attributes ==> autocomplete = (on / off)  , method ==> get (default) , post
+-- input attributes ==> type , name , disabled , readonly , value , autocomplete , placeholder
+-- type atrribute ==> text , email , password , submit , button , file , radio , checkbox 
+-- textarea attributes ==> rows , cols , name , disabled , readonly , placeholder
+-- select attributes ==> name , placeholder , multiple , disabled
+-- option attributes ==> value , disabled , selected
+
+-- pattern Html ==> search
+
+
+----------------------------------------------------------------------------------------------------
+-- firstName ==> maxlength ==> 10
+-- lastName ==> required
+-- family name ==> stop autocomplete
+-- age 
+-- email  ==> example@hotmail.com , no edit , send to database
+-- password
+-- address ==> textarea ==> height / width
+-- cv/image ==> many files
+-- date (mm / dd / yyy - h : m)
+-- gender ==> radio
+-- courses ==> select
+-- hobbies ==> checkbox
+-- sign up / clear
+
+
+

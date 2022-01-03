@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/facebook-icon.png">
+
+</head>
+
+<body>
+
+    <!-- <h1>Welcome to contact page</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, doloremque?</p>
+    <button>Contact </button>
+
+
+    <iframe height="300" width="300" src="index.html" name="myIframe"></iframe>
+
+    <a href="https://www.javatpoint.com/" target="myIframe">change Iframe</a>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IALa1FCl2T4" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+       
+    <video width="300" height="200" controls autoplay muted poster="images/poster.jpg" >
+        <source src="video path.extension">
+    </video>    
+
+    <audio controls autoplay muted>
+        <source src="audio path.extension">
+    </audio> -->
+
+    <!-- Form -->
+
+    <form autocomplete="off" method="get" action="index.html">
+        <label>first name</label>
+        <input type="text" name="firstName" autocomplete="off" value="ahmed"> <br>
+        <label>Email</label>
+        <input type="email" name="userEmail" required > <br>
+        <label>Password</label>
+        <input type="password" name="userPassword" required> <br>
+        <label>Message</label> 
+        <textarea rows="4" cols="50" name="message" disabled> message text</textarea> <br>
+        <label>Shipping Area</label>
+        <!-- <input type="text" value="october" name="shippingArea" disabled> -->
+        <input type="text" value="october" name="shippingArea" readonly> <br>
+
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> <span>Female</span> <br>
+
+        <label>Courses</label> 
+        <input type="checkbox" name="course1" value="webdesign"> <span>Web design</span>
+        <input type="checkbox" name="course2" value="node"> <span>Node / Angular</span>
+        <input type="checkbox" name="course3" value="php"> <span>PHP</span>
+        <input type="checkbox" name="course4" value="graphic"> <span>Graphic</span> <br>
+
+        <input type="text" placeholder="enter your Name" >
+        <textarea placeholder="enter your address"></textarea> <br>
+
+        <!-- <label>track</label> -->
+        <select name="track" multiple>
+            <option disabled selected>select your track</option>
+            <option value="0">web design</option>
+            <option value="1">web develop</option>
+            <option value="2">CCNA</option>
+            <option value="3">Career dev</option>
+        </select>
+
+        <br>
+        <input type="file" name="cv" multiple> <br>
+        
+        <label>card identity</label>
+        <input type="text" maxlength="14" minlength="10">
+        <input type="number"  placeholder="enter number" > <br>
+
+        <input type="color"> <br>
+        <input type="date"> <br>
+        <input type="datetime-local"> <br>
+        <input type="month"> <br>
+
+        <input type="range" name="range" min="100" max="300" value="0">
+
+
+
+
+        <br>
+        <input type="submit" value="sign in">
+        <button>Sign Up</button>
+        <input type="button" value="register">
+
+    </form>
+
+   
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+    <script>
+        // javascript code .....
+    </script>
+
+</body>
+
+</html>
