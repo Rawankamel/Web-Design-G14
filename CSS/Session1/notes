@@ -1,0 +1,25 @@
+-- css Link ==> Internal Sheet
+                Inline Style
+                External Sheet
+
+
+-- Css Selector ==> tag 
+                    class 
+                    id
+
+
+-- priority of css = inline style ==> id ==> class ==> tag       
+
+-- RGB ==> Red + Green + Blue
+
+-- padding = 4 num or 1 num  top right bottom left  ==> same as margin
+-- padding = 3 Num ==> top , right/left , bottom ==> same as margin
+-- padding = 2 num ==> top/bottom , right/left ==> same as margin
+
+-- text-align ==> left (default) , center , right , justify
+
+-- border ==> border-width border-style border-color
+
+-- box-sizing ==> content-box (deafult)  , border-box ==> width = content + padding + border
+
+

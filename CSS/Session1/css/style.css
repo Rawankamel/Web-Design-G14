@@ -1,0 +1,155 @@
+
+/* universal Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#h3_style{
+    color: rgb(214, 28, 28);
+    background-color: #dbdfcc;
+    text-align: center;
+    /* center , left , right , justify */
+    font-size: 22px;
+}
+
+.div_style{
+    color: rgb(214, 28, 28);
+    background-color: #dbdfcc;
+    font-size: 30px;
+    font-weight: bold;
+    width: 50%;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 4% auto;
+}
+
+
+.div_style h4 {
+    background-color: black;
+    width: 50%;
+    color: white;
+    /* 
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-bottom: 4%;
+    padding-right: 4%;
+     */
+    /* 
+    padding: 2% 4% 3% 5%;
+    padding: 3% 5% 10%;
+    padding: 5% 2%;
+     */
+    padding: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+
+
+
+}
+.div_style p {
+    margin-bottom: 18%;
+    margin-top: 6%; 
+}
+
+
+header{
+    background-color: blue;
+    color: white;
+    height: 400px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+.container #p_text {
+    background-color: black;
+    height: 30%;
+}
+.container #p_text span{
+    background-color: lime;
+}
+/* #p_text{
+    background-color: black;
+    height: 30%;  
+} */
+
+#about_section{
+    background-color: lightgrey;
+    padding: 4% 0;
+}
+
+#about_section .container h5 {
+    background-color: burlywood;
+    font-size: 21px;
+    margin-bottom: 8%;
+    padding: 2%;
+    
+    /*
+     border-top-color: lime;
+    border-top-style: solid;
+    border-top-width: 4px; */
+
+    /* border-top: 4px solid red;
+    border-left: 10px solid lime; */
+    
+    /* border-width: 9px;
+    border-style: solid;
+    border-color: red; */
+    border: 4px solid blue;
+
+
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+
+    border-radius: 30px;
+}
+
+.container input{
+    font-size: 20px;
+    background-color: aquamarine;
+    color: red;
+    padding: 1% 1%;
+    width: 47%;
+    margin-bottom: 2%;
+    border: 0;
+    border-radius: 13px;
+}
+
+.div_card{
+    background-color: lightgray;
+    color: red;
+    font-size: 25px;
+    padding: 2% 4%;
+    width: 30%;
+    margin-bottom: 3%;
+    /* margin-right: 3%; */
+    border: 6px solid;
+    box-sizing: border-box;
+
+
+}
+.custom_margin{
+    margin: 0 5%;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.contact_section{
+    background-color: mediumpurple;
+    padding: 3% 0px;
+}
+.clear{
+    clear: both;
+}
+
+
