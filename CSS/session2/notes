@@ -1,0 +1,14 @@
+-- background-image ==> url(image path)
+-- background-size ==> 100% 100% , cover , contain
+-- background-repeat ==> no-repeat , repeat(default)
+-- background-position-x ==> left(default) , center , right
+-- background-position-y ==> top (default) , center , bottom
+-- background-position ==> background-position-x + background-position-y
+
+
+-- display = inline , block , inline-block 
+-- text-decoration ==> undeline , line-through , overline , none
+
+-- heading h1:h6 , p , div , semantic tags , list , table  ==> block element
+-- img , video , audio , iframe , textarea , input , select , button   => inline-block Elements
+-- text formatting , span , a ==> inline Element 
