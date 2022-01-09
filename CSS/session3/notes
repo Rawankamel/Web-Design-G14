@@ -1,0 +1,8 @@
+-- position ==> fixed , sticky , relative , absolute  , static (default)
+-- top , left ,bottom , right , z-index
+
+
+-- fontawesome Documentation ==> https://fontawesome.com/
+
+-- circle Element ==> width = height
+                      border-radius ==>  50%
