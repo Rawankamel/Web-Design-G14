@@ -1,0 +1,13 @@
+-- Pesudo Class ==> :hover , :focus , :checked , :required , :disabled , :nth-child(num) , nth-child(even/odd) :last-child , :first-child
+                    a ==> :link ==> unvisited link
+                          :visited ==> visited link
+                          :active
+
+
+-- border-collapse ==> collapse , seperate (default)   
+
+-- Pseudo Element ==> ::first-letter , ::first-line , ::selection , ::placeholder , ::before , ::after , ::marker
+
+
+-- Pseudo Class & Pseudo Element Reference ==> https://www.w3schools.com/css/css_pseudo_classes.asp
+

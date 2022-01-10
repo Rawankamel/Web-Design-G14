@@ -1,0 +1,251 @@
+/* Reset Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* global Style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
+/***************** Pseudo Class ********************/
+.card{
+    width: 30%;
+    margin: 3% auto;
+    background-color: lightgray;
+    color: red;
+    padding: 2%;
+}
+.card button{
+    margin-top: 5%;
+    font-size: 20px;
+    padding: 5px;
+    background: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.card button:hover{
+    background-color: red;
+    color: white !important;
+}
+
+.card:hover p{
+    font-size: 25px;
+
+}
+
+.card:hover button{
+    color: red;
+}
+
+
+.name_input{
+    width: 300px;
+    font-size: 25px;
+    background-color: aliceblue;
+    color: red;
+    padding: 1%;
+    border:0;
+    border-bottom: 4px solid;
+}
+.name_input:hover{
+    background-color: lightskyblue;
+}
+
+.name_input:focus{
+    outline: 0;
+    border-bottom-color: black;
+}
+
+form .checked_input:checked{
+    width: 30px;
+    height: 30px;
+}
+.disabled_input{
+    width: 300px;
+    height: 40px;
+}
+
+/* .disabled_input:disabled{
+    background-color: mediumaquamarine;
+} */
+
+input:disabled{
+    background-color: mediumvioletred;
+}
+
+input:required{
+    color: blue;
+}
+
+a{
+    font-size: 30px;
+}
+
+
+a:link{
+    color: olive;
+}
+a:visited{
+    color: palevioletred;
+}
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: black;
+}
+
+
+table {
+    border: 2px solid lightgray;
+    width: 100%;
+    margin-top: 3%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid lightgray;
+    padding: 1%;
+}
+
+th{
+    background: #0070ff;
+    color: white;
+    font-size: 21px;
+    padding: 1%;
+}
+
+/* tr:hover{
+    background-color: lightgray;
+} */
+
+/* #myTable tr:nth-child(3) , #myTable tr:nth-child(5){
+    background-color: lightpink;
+} */
+
+#myTable tr:nth-child(odd){
+    background-color: lightskyblue;
+}
+#myTable tr:nth-child(odd):hover , #myTable tr:nth-child(even):hover{
+    background-color: black;
+    color: white;
+}
+
+#myTable tr:nth-child(even){
+    background-color: lightgreen;
+}
+
+#myUl{
+    margin:5% 0;
+    font-size: 30px;
+}
+
+#myUl li:nth-child(2){
+    color: red;
+}
+ li:first-child{
+    color: lightskyblue;
+}
+
+ li:last-child{
+    color: lime;
+}
+
+
+.custom-div p:first-child {
+    color: mediumblue;
+}
+.custom-div p:nth-child(2){
+    color: red;
+}
+
+
+input:focus{
+    background-color: khaki;
+}
+
+/********** Pseudo Element  ******************/
+
+h1::first-line{
+    color: red;
+}
+
+h1::first-letter{
+    color: blue;
+    font-size: 50px;
+}
+
+::selection{
+    background-color: goldenrod;
+    color: white;
+}
+/* :hover{
+    background-color: gray;
+} */
+
+::placeholder{
+    color: hotpink;
+}
+
+li::marker{
+    color: red;
+}
+
+.custom-h3{
+    font-size: 30px;
+    background-color: #f6f4f4;
+    padding: 1%;
+    width: 50%;
+    margin: 3% auto;
+    position: relative
+}
+
+.custom-h3::before{
+    content: "Web Design ";
+    border: 3px solid red;
+    width: 40%;
+    height: 50px;
+    position: absolute;
+    right: 100%;
+}
+
+.custom-h3::after{
+    content: "";
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #f1f2f0;
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+}
+
+h4{
+    font-size: 25px;
+    color: red;
+    margin-top: 5%;
+}
+h4::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f007";
+}
+hr{
+    background: orange;
+    border: 3px solid orange;
+    width: 5%;
+    margin: 0 auto;
+}
+
+.custom_margin_div{
+    border: 2px solid ;
+    padding: 3%;
+}
+
+
