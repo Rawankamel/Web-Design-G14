@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.bg-container{    background: antiquewhite;;}
+.d-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    align-content: center;
+    height: 700px;
+}
+
+.card{
+    width: 25%;
+    padding: 1%;
+    font-size: 20px;
+}
+
+.bg-card1{background-color: lightgray;}
+.bg-card2{background-color: lightgreen;}
+.bg-card3{background-color: lightpink;}
+
+
+
+/* flex example style */
+
+.text-white{
+    color: white;
+}
+
+
+nav{
+    background-color: black;
+}
+
+
+.display-flex{
+    display: flex; 
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-end{
+    align-items: flex-end;
+}
+nav h1 {
+    font-size: 50px;
+}
+
+.w-40{
+    width: 40%;
+}
+nav ul {
+    width: 40%;
+}
+
+.card-container{
+    margin-top: 5%;
+}
+.card-img{
+    /* box-shadow ==> h-offset v-offset blur spread color */
+    box-shadow: 0px 0px 11px 2px #a71111;
+    width: 40%;
+}
+.card-details{
+    width: 50%;
+}
+
+.card-icon{
+    width: 45px;
+    height: 45px;
+    border: 2px solid;
+    border-radius: 50%;
+    line-height: 2.1;
+    text-align: center;
+    font-size: 20px;
+    color: orangered;
+}
+
+.card-icon-details{
+    width: 80%;
+}
+
+#pricing-section{
+    background-color: rgb(226, 225, 225);
+    padding: 4% 0;
+    margin: 4% 0;
+    text-align: center;
+}
+
+
+.pricing-card{
+    width: 30%;
+}
+.pricing-card hr{
+    height: 1px;
+    border: none;
+    background-color: #959595;
+    /* border: 1px solid white; */
+}
+
+.pricing-card .pricing-card-title{
+    padding: 3%;
+}
+
+
+.pricing-card .h2_large{
+    font-size: 93px;
+}
+.pricing-card .h2_large span{
+    font-size: 31px;
+}
+
+.pricing-card p {
+    border-bottom: 3px solid orangered;
+    padding-bottom: 2%;
+}
+.pricing-card ul{
+    background-color: white;
+}
+.pricing-card ul li {
+    border-bottom: 1px solid lightgray;
+    padding: 3%;
+    color: dimgray;
+}
+
+.pricing-card ul li:last-child{
+    border-bottom: 0px;
+}
+.pricing-card h4{
+    background: orangered;
+    padding-bottom: 5px;
+}
+
+
+.bg-dark{
+    background-color: rgb(8, 8, 8);
+}

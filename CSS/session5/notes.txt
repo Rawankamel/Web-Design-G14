@@ -1,0 +1,18 @@
+-- parent ==> display : flex
+              flex-direction ==> row (default) , row-rverse , column , column-reverse
+              flex-wrap ==> nowrap(default) , wrap
+              justify-content ==> flex-start , flex-end , center , space-between , space-around , space-evenly
+              align-items ==> stretch(default) , flex-start , flex-end , center
+              align-content ==> flex-start , flex-end , center , space-between , space-around , space-evenly
+
+
+-- child ==> order => 1, 2 ,3 ....... , -1  
+             align-self ==> flex-start , flex-end , center
+
+
+-- flex css tricks ==> https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+-- box-shadow ==> h-offset v-offset blur spread color
+
+--- flex task ==> https://preview.colorlib.com/theme/world/
