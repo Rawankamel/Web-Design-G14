@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.custom-div p{
+    color: red;
+}
+
+.custom-div > p{
+    color: red;
+}
+
+.custom-div + h1{
+    color: blue;
+}
+.custom-div ~ h2{
+    color: aqua;
+}
+
+.custom-div:hover + h1{
+    background-color: blanchedalmond;
+}
+
+.custom-div:hover +.custom-h3{
+    color: chartreuse;
+}
+
+
+input[type=email]{
+    background-color: cyan;
+}
+input[type=text]{
+    background-color: darkkhaki;
+}
+
+input[name=username]{
+    background-color: chartreuse;
+}
+
+.custom-h4.active{
+    color: darkorange;
+}
+
+.card{
+    width: 50%;
+    height: 100px;
+    background-color: lightgray;
+    padding: 1%;
+    overflow: auto;
+    color: red;
+    margin:auto}
+
+
+.custom-img{
+    width: 30%;
+    height: 300px;
+}    
+
+.custom-img:hover{
+    filter: grayscale(100%);
+    filter: blur(0px);
+    filter: brightness(100%);
+    filter: contrast(100%);
+    filter: opacity(100%);
+}
+
+.bg-image-gradient{
+    /* linear-gradient(direction , color1 , color2 ........)  */
+    background-image: linear-gradient(to bottom right , yellow , blue);
+
+    background-image: radial-gradient(circle ,  red , green , yellow);
+
+    height: 400px;
+}
+
+
+.custom-font{
+    font-family: 'Licorice', cursive;
+}
+
+.custom-card{
+    background-color: lightgray;
+    font-size: 25px;
+    width: 30%;
+    padding: 2%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.custom-section{
+    height: 800px;
+}
+
+
+.custom-bg-image{
+    background-image: url(../images/stage-perfect-storm.jpg);
+    height: 400px;
+    background-size: 100% 100%;
+}
+

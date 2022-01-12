@@ -1,0 +1,28 @@
+-- css selector w3schools  ==> https://www.w3schools.com/cssref/css_selectors.asp
+
+-- overflow ==> visible (default), scroll , auto , hidden
+
+-- white-space ==> normal (default) , nowrap
+
+-- opacity ==> 0 : 1
+
+-- filter ==> grayscale() 0% : 100% -- 0% default
+              blur() 0px(default)
+              brightness() 100% (default) 
+              contrast() 100% (default)
+              opacity() 100% (default)
+              drop-shadow() ==> search
+
+
+-- background-image ==> linear-gradient(direction , color1 , color2 ........)  
+                        direction ==> top to bottom   
+
+                        radial-gradient(shape , color1 , color2) 
+
+
+-- box-reflect ==> search    
+
+
+-- direction ==> ltr (left to right) , rtl (right to left)
+
+-- wow Documentation ==> https://wowjs.uk/
