@@ -1,0 +1,26 @@
+
+
+@media media type and (condition:breakpoint)
+
+-- media type ==> screen , speech , print 
+-- condition ==> max-width
+                 min-width
+                 range
+
+-- breakpoint ==> screen size
+
+-- bootstrap screens sizes ==> https://getbootstrap.com/docs/5.1/layout/breakpoints/
+
+-- flex task ==> https://preview.colorlib.com/theme/world/
+
+
+-- transition-duration ==> time (s / ms)
+-- transition-delay ==> time (s / ms)
+-- transition-property ==> css property / all(default)
+-- transition-timing-function == > ease (default) ==> start slow , then fast , end slow
+                                   linear ==> same speed
+                                   ease-in ==> start slow
+                                   ease-out ==> end slow
+                                   ease-in-out ==> start slow , end slow
+
+-- transition ==> transition-duration + transition-property + transition-timing-function                                   

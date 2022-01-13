@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+
+/* global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.w-100{
+    width: 100%;
+}
+.w-25{
+    width: 25%;
+}
+.w-70{
+    width: 70%;
+}
+.margin-bottom{
+      margin-bottom: 10%; 
+}
+
+.d-flex{
+    display: flex;
+    
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+
+/* custom style */
+
+.left-aside{
+    width: 60%;
+}
+.right-aside{
+    width: 35%;
+}
+.right-div , .left-div{
+    width: 47%;
+}
+
+
+.card{
+    width: 30%;
+    background-color: lightgray;
+    padding: 2%;
+    height: 100px;
+    /* transition-duration: 10s; */
+    /* transition-property: all; */
+    /* transition-delay: 5s; */
+    /* transition-timing-function: linear; */
+    /* transition: 2s linear height , 10s  width; */
+    transition: 2s ;
+    
+
+}
+
+.card:hover{
+    width: 100%;
+    background-color: lightpink;
+    font-size: 30px;
+    height: 300px;
+    
+}
+
+button{
+    transition: 2s linear background;
+    transition-delay: 2s;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    /* padding: 1%; */
+}
+
+
+
+
+
+
