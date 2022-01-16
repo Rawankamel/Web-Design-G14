@@ -1,0 +1,36 @@
+-- transform 2d ==> translateX(px/%) ==> (+ve) = to right  / (-ve) = to left
+                    translateY(px/%) ==>  (+ve) = to bottom  / (-ve) = to top
+                    translate(translateX , translateY)
+                    rotate(deg) ==> (+ve) ==> clock wise / (-ve) antiClock wise
+                    scaleX(num) ==> width
+                    scaleY(num) ==> height
+                    scale(scaleX , scaleY)
+                    skewX(deg)
+                    skewY(deg)
+                    skew(skewX , skewY)
+                    matrix(scaleX() , skewY() , skewX() , scaleY() , translateX() , translateY())
+
+-- transform 3d ==> search ==> https://www.w3schools.com/css/css3_3dtransforms.asp
+-- transform css tricks ==> https://css-tricks.com/almanac/properties/t/transform/
+-- flip card ==> https://www.w3schools.com/howto/howto_css_flip_card.asp                
+
+
+
+-- animation-name ==> name of keyframes
+-- animation-duration ==> time (s/ms)
+-- animation-delay ==> time 
+-- animation-iteration-count ==> count / infinte
+-- animation-direction ==> normal (default) ==> 0% : 100%
+                           reverse ==>  100% : 0%
+                           alternate ==> 0% : 100%  /  100% : 0%
+                           alternate-reverse ==> 100% : 0% / 0% :100%
+-- animation-timing-function ==> same transition-timing-function
+-- animation-fill-mode ==> search
+
+-- animation: name duration timing-function delay iteration-count direction fill-mode;
+
+
+-- bootstrap Documentation ==> https://getbootstrap.com/docs/5.1/getting-started/introduction/
+
+
+
